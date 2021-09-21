@@ -1,0 +1,160 @@
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Nunito Sans, 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+
+.section {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    width: 100%;
+  }
+}
+
+/*
+=============== 
+Navbar
+===============
+*/
+nav {
+  background: rgb(187, 4, 187);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top:0;
+  left:0;
+  z-index: 2;
+
+}
+.nav_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav_toggle {
+  font-size: 1.5rem;
+  color: white;
+  background: transparent;
+  border-color: transparent;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.nav_toggle:hover {
+  color: white;
+  transform: rotate(90deg);
+}
+.logo {
+ margin:20px;
+}
+.links a {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing:0.1rem;;
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: transform 250ms ease-in;
+ 
+}
+.links a:hover {
+  color: rgb(255, 255, 255);
+  padding-left: 1.5rem;
+  transform: scale(1.03);
+
+}
+.social_icons {
+  display: none;
+}
+.links_container {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+.show_container {
+  height: 13rem;
+}
+@media screen and (min-width: 800px) {
+  .nav_center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav_header {
+    padding: 0;
+  }
+  .nav_toggle {
+    display: none;
+  }
+  .links_container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+  .social_icons {
+    display: flex;
+  }
+  .social_icons a {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    color:rgb(180, 180, 180);
+    transition: transform 200ms ease-in-out;
+  }
+  .social_icons a:hover {
+    color: rgb(255, 255, 255);
+  }
+}
