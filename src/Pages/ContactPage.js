@@ -1,16 +1,26 @@
 import styles from "../CSS/ContactPage.module.css";
 import { useForm} from '@formspree/react';
+import { FaGithub} from 'react-icons/fa'
 
 function ContactPage() {
 
   const [state, handleSubmit] = useForm("xeqvvrkn");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <p>Thank you for your submission. I will React to it shortly :)</p>;
   }
 
     return (
-        <body>
+        <section>
+          <h1 style={{
+
+fontWeight: '900',
+fontSize:'4rem',
+textAlign: 'center',
+margin:'2rem'
+
+          }}>Contact Me</h1>
         <div className={styles.container}>
+          
           <span className={styles.bigCircle}></span>
           <img src="img/shape.png" className={styles.square} alt="" />
           <div className={styles.form}>
@@ -23,27 +33,23 @@ function ContactPage() {
     
               <div className={styles.info}>
                 <div className={styles.information}>
-                  <img src="img/location.png" className={styles.icon} alt="" />
-                  <p>92 Cherry Drive Uniondale, NY 11553</p>
+                  <p>Birchleigh North, Kempton Park,South Africa</p>
                 </div>
+
                 <div className={styles.information}>
-                  <img src="img/email.png" className={styles.icon} alt="" />
-                  <p>lorem@ipsum.com</p>
+                  <p>Email:ttheko101@gmail.com</p>
                 </div>
+               
                 <div className={styles.information}>
-                  <img src="img/phone.png" className={styles.icon} alt="" />
-                  <p>123-456-789</p>
+                  <p>Phone:+27 84 833 1276</p>
                 </div>
               </div>
     
               <div className={styles.socialMedia}>
-                <p>Connect with us :</p>
+                <p className={styles.information}>Follow Me On Social Media :</p>
                 <div className={styles.socialIcons}>
                   <a href="w">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="w">
-                    <i className="fab fa-twitter"></i>
+                    <i className="fab fa-github"></i>
                   </a>
                   <a href="w">
                     <i className="fab fa-instagram"></i>
@@ -60,9 +66,9 @@ function ContactPage() {
               <span className={`${styles.circle} ${styles.two}`}></span>
     
               <form  onSubmit={handleSubmit} autocomplete="on">
-                <h3 className={styles.title}>Contact us</h3>
+                <h3 className={styles.title}>Message Me</h3>
                 <div className={styles.inputContainer}>
-                  <input type="text" name="name" className={`${styles.input} ${styles.focus}`} placeholder="Name" />
+                  <input type="text" name="name" className={`${styles.input} required  ${styles.focus}`} placeholder="Name" />
                   
                 </div>
                 <div className={styles.inputContainer}>
@@ -83,7 +89,7 @@ function ContactPage() {
             </div>
           </div>
         </div>
-      </body>
+      </section>
     );
   }
   
