@@ -34,7 +34,7 @@ quick learner, and highly collaborative.</p>
        <div>
            <h4 style={
                { 
-                  fontWeight: "600",
+    fontWeight: "600",
     display:"flex",
     fontSize:"2rem",
     alignItems: "center",
@@ -124,4 +124,4 @@ quick learner, and highly collaborative.</p>
 );
 }
 
-export default About
+export default About;
