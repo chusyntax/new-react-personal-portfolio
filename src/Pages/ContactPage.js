@@ -1,12 +1,11 @@
 import styles from "../CSS/ContactPage.module.css";
 import { useForm} from '@formspree/react';
-import { FaGithub} from 'react-icons/fa'
 
 function ContactPage() {
 
   const [state, handleSubmit] = useForm("xeqvvrkn");
   if (state.succeeded) {
-      return <p>Thank you for your submission. I will React to it shortly :)</p>;
+      return <p className={styles.submit}>Thank you for your submission. I will React to it shortly :)</p>;
   }
 
     return (

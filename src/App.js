@@ -4,6 +4,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Experience from './Pages/Experience';
 import ContactPage from './Pages/ContactPage';
+import Footer from "./Pages/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 <Projects/>
 <Experience/>
 <ContactPage/>
+<Footer/>
 
 </main>
 

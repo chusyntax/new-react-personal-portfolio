@@ -26,6 +26,22 @@ h1{
     -webkit-background-clip: text;
 }
 
+.submit{
+  font-family: Nunito Sans,sans-serif!important;
+  font-weight: 900;
+  font-size:3rem;
+  text-align: center;
+  display:flex;
+  padding-left:500px;
+  align-items: center;
+  max-width:800px;
+  background: -webkit-linear-gradient(315deg,purple 32%,#00f);
+  background: -moz-linear-gradient(315deg,purple 32%,#00f 100%);
+  background: linear-gradient(135deg,purple 32%,#00f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
 .container {
   position: relative;
   width: 100%;
