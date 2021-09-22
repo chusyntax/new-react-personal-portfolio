@@ -49,12 +49,46 @@ const [open8, setOpen8] = useState(false);
 
 <div className={styles.cardWrapper}>
 
+
+<div>
+<Card heading="Personal Portfolio"
+description="My new personal portfolio made with React.js. Here you can get to know more about me and the skills I have aquired,view all my projects and message me as well."
+gitHub="https://github.com/chusyntax/new-react-personal-portfolio"
+liveSite="https://chusyntax.netlify.app/"
+onClick={onOpenModal8}
+cardImage={Images.card8}
+>
+</Card>
+<Modal open={open8} onClose={onCloseModal8} center>
+<div className={styles.modalWrapper}>
+ 
+ <img style={{height:"100%", width:"100%"}} src={Images.card8Mobile} alt="A Landscape" width="100%" height="100%"/>
+
+ <div className={styles.modalContent}>
+     <h1 style={{fontSize:"2rem"}}>Heading</h1>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique? Tenetur laborum incidunt aspernatur accusantium itaque commodi rem est ea. Odio commodi omnis non veniam saepe consectetur quibusdam. Dolorum, iusto.</p>
+    <p>Made with</p>
+     <div className={styles.buttonLayout}>
+     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">View Code</a></button>
+     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">Live Site</a></button>
+     </div>
+ </div>
+
+</div>
+
+</Modal>
+</div>
+
+
+
+
+
 <div>
 
-<Card heading="Whats Going On"
-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
-gitHub="https://github.com/chusyntax"
-liveSite="https://github.com/chusyntax"
+<Card heading="What's Going On"
+description="A website that displays  the latest stories and top 13 books from the New York Times. You can also read the description of a book and go straight to purchasing it on Amazon."
+gitHub="https://github.com/chusyntax/svg-and-api-website"
+liveSite="https://whatsgoingon.netlify.app/"
 onClick={onOpenModal1}
 cardImage={Images.card1}
 >
@@ -65,12 +99,12 @@ cardImage={Images.card1}
  <img style={{height:"100%", width:"100%"}} src={Images.card1Mobile} alt="A Landscape" width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}  >Heading</h1>
+     <h1 style={{fontSize:"2rem"}}  >What's Going On</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique? Tenetur laborum incidunt aspernatur accusantium itaque commodi rem est ea. Odio commodi omnis non veniam saepe consectetur quibusdam. Dolorum, iusto.</p>
-    <p>Made with</p>
+    <p>Made with: HTML, CSS, JavaSript, New York Times API and Webpack.</p>
      <div className={styles.buttonLayout}>
      <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">View Code</a></button>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">Live Site</a></button>
+     <button className={styles.innerModalButton}><a href="https://whatsgoingon.netlify.app/" target="_blank" rel="noreferrer">Live Site</a></button>
      </div>
  </div>
 
@@ -80,9 +114,9 @@ cardImage={Images.card1}
 
  <div>
  <Card heading="Skweeky Klean"
-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
-gitHub="https://github.com/chusyntax"
-liveSite="https://github.com/chusyntax"
+description="This is a pool cleaning company. It has a calm and tranquil aesthitic and color scheme which resembles that of the ocean and multiple pages to view as well. "
+gitHub="https://github.com/chewyscode/skweeky-klean"
+liveSite="https://skeeky-klean.netlify.app/"
 onClick={onOpenModal2}
 cardImage={Images.card2}
 >
@@ -109,9 +143,9 @@ cardImage={Images.card2}
 
  <div>
  <Card heading="Kool Kicks"
-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
-gitHub="https://github.com/chusyntax"
-liveSite="https://github.com/chusyntax"
+description="This is an eCommerce store for shoes. It is intended to work as a fully functioning shoe sales platform. It also has a 3D image carousel(Best Sellers Page)"
+gitHub="https://github.com/chewyscode/eCommerce"
+liveSite="https://kool-kicks.netlify.app/"
 onClick={onOpenModal3}
 cardImage={Images.card3}
 >
@@ -134,6 +168,11 @@ cardImage={Images.card3}
 </div>
   </Modal>
 </div>
+
+
+</div>
+
+<div className={styles.cardWrapper}>
 
 
 <div>
@@ -164,9 +203,9 @@ cardImage={Images.card4}
   </Modal>
 </div>
 
-</div>
 
-<div className={styles.cardWrapper}>
+
+
 
 <div>
 
@@ -254,34 +293,7 @@ cardImage={Images.card7}
 </div>
 
 
-<div>
-<Card heading="Wassup"
-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
-gitHub="https://github.com/chusyntax"
-liveSite="https://github.com/chusyntax"
-onClick={onOpenModal8}
-cardImage={Images.card8}
->
-</Card>
-<Modal open={open8} onClose={onCloseModal8} center>
-<div className={styles.modalWrapper}>
- 
- <img style={{height:"100%", width:"100%"}} src={Images.card8sMobile} alt="A Landscape" width="100%" height="100%"/>
 
- <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Heading</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique? Tenetur laborum incidunt aspernatur accusantium itaque commodi rem est ea. Odio commodi omnis non veniam saepe consectetur quibusdam. Dolorum, iusto.</p>
-    <p>Made with</p>
-     <div className={styles.buttonLayout}>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">View Code</a></button>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">Live Site</a></button>
-     </div>
- </div>
-
-</div>
-
-</Modal>
-</div>
 
 </div> 
 <div className={styles.wave}>

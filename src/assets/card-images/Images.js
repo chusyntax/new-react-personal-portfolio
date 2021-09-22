@@ -20,8 +20,8 @@ card6Mobile : require('./card 6 mobile.png').default,
 card7 : require('./card 7.png').default,
 card7Mobile : require('./card 7 mobile.png').default,
 
-card8 : require('./card 8.png').default,
-card8Mobile : require('./card 8 mobile.png').default,
+card8 : require('./home page.png').default,
+card8Mobile : require('./home page mobile.png').default,
 }
 
 export default Images
