@@ -17,7 +17,7 @@ return(
     fontSize:"2rem",
     alignItems: "center",
     justifyContent: "center",
-    marginTop: '2rem',
+    marginTop: '0.5rem',
 }}
 > Summary:</h4>
         <div className={AboutStyles.information}>
@@ -40,7 +40,7 @@ quick learner, and highly collaborative.</p>
     alignItems: "center",
     justifyContent: "center",
     padding:"20px",
-    marginTop:'-4rem'
+    marginTop:'-3rem'
 }
     
     }>Tech and Tools I use:</h4>

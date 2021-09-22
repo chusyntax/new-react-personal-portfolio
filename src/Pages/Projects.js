@@ -51,7 +51,7 @@ const [open8, setOpen8] = useState(false);
 
 <div>
 
-<Card heading="Wassup"
+<Card heading="Whats Going On"
 description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"
@@ -79,7 +79,7 @@ cardImage={Images.card1}
 </div>
 
  <div>
- <Card heading="Wassup"
+ <Card heading="Skweeky Klean"
 description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"
@@ -108,7 +108,7 @@ cardImage={Images.card2}
 </div>
 
  <div>
- <Card heading="Wassup"
+ <Card heading="Kool Kicks"
 description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"
@@ -137,7 +137,7 @@ cardImage={Images.card3}
 
 
 <div>
-<Card heading="Wassup"
+<Card heading="Molding Messengers"
 description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
 gitHub="https://github.com/chusyntax"
 liveSite="https://github.com/chusyntax"

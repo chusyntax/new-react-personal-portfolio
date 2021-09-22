@@ -14,7 +14,7 @@ footer{
   overflow-x: hidden;
   bottom:0;
   z-index: 1;
-  background: purple;
+  background: rgb(187, 4, 187);
   height: auto;
   width: 100%;
   font-family: Nunito Sans,sans-serif;
@@ -66,8 +66,9 @@ footer{
 .footer_bottom{
   background: rgb(59, 1, 59);
   width: 100vw;
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
+  padding-bottom:1px;
 }
 .footer_bottom p{
   font-size: 14px;

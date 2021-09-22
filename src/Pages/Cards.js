@@ -1,5 +1,5 @@
-import GitHub from './github-white.png';
-import Website from './website-white.png';
+import GitHub from '../assets/card-images/website-white.png';
+import Website from '../assets/card-images/github-white.png';
 import styles from '../CSS/Projects.module.css';
 
 
