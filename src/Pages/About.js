@@ -21,7 +21,7 @@ return(
 }}
 > Summary:</h4>
         <div className={AboutStyles.information}>
-            <p>I am a Front End Developer with an eye for creativity. I enjoy writing code, developing web apps/pages and learning new
+            <p>I am a Front End Developer with a very creative mind. I enjoy writing code, developing web apps/pages and learning new
 technologies/languages. I am also progress-driven, a
 quick learner, and highly collaborative.</p>
 

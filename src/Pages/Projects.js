@@ -141,7 +141,40 @@ cardImage={Images.card2}
   </Modal>
 </div>
 
- <div>
+<div>
+<Card heading="Molding Messengers"
+description="A publishing firm's  website  made in WordPress. Here, a client hired me to create new pages for the site and make changes to existing pages."
+gitHub="https://github.com/chusyntax"
+liveSite="https://www.moldingmessengers.com"
+onClick={onOpenModal4}
+cardImage={Images.card4}
+>
+</Card>
+  <Modal open={open4} onClose={onCloseModal4} center>
+  <div className={styles.modalWrapper}>
+ 
+ <img style={{height:"100%", width:"100%"}} src={Images.card4Mobile} alt="A Landscape" width="100%" height="100%"/>
+
+ <div className={styles.modalContent}>
+     <h1 style={{fontSize:"2rem"}}>Heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique? Tenetur laborum incidunt aspernatur accusantium itaque commodi rem est ea. Odio commodi omnis non veniam saepe consectetur quibusdam. Dolorum, iusto.</p>
+    <p>Made with</p>
+     <div className={styles.buttonLayout}>
+     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">View Code</a></button>
+     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">Live Site</a></button>
+     </div>
+ </div>
+
+</div>
+  </Modal>
+</div>
+
+
+</div>
+
+<div className={styles.cardWrapper}>
+
+<div>
  <Card heading="Kool Kicks"
 description="This is an eCommerce store for shoes. It is intended to work as a fully functioning shoe sales platform. It also has a 3D image carousel(Best Sellers Page)"
 gitHub="https://github.com/chewyscode/eCommerce"
@@ -170,49 +203,16 @@ cardImage={Images.card3}
 </div>
 
 
-</div>
-
-<div className={styles.cardWrapper}>
-
-
-<div>
-<Card heading="Molding Messengers"
-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
-gitHub="https://github.com/chusyntax"
-liveSite="https://github.com/chusyntax"
-onClick={onOpenModal4}
-cardImage={Images.card4}
->
-</Card>
-  <Modal open={open4} onClose={onCloseModal4} center>
-  <div className={styles.modalWrapper}>
- 
- <img style={{height:"100%", width:"100%"}} src={Images.card4Mobile} alt="A Landscape" width="100%" height="100%"/>
-
- <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Heading</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique? Tenetur laborum incidunt aspernatur accusantium itaque commodi rem est ea. Odio commodi omnis non veniam saepe consectetur quibusdam. Dolorum, iusto.</p>
-    <p>Made with</p>
-     <div className={styles.buttonLayout}>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">View Code</a></button>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">Live Site</a></button>
-     </div>
- </div>
-
-</div>
-  </Modal>
-</div>
-
 
 
 
 
 <div>
 
-<Card heading="Wassup"
-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
-gitHub="https://github.com/chusyntax"
-liveSite="https://github.com/chusyntax"
+<Card heading="Github Search"
+description="This website uses the GitHub API to get data about any GitHub user that is searched and display that data in a neat format. You also then view their personal website/blog."
+gitHub="https://github.com/chusyntax/JQuery-AJAX-Project"
+liveSite="https://chus-finder-app.netlify.app/"
 onClick={onOpenModal5}
 cardImage={Images.card5}
 >
@@ -237,10 +237,10 @@ cardImage={Images.card5}
 </div>
 
 <div>
-<Card heading="Wassup"
-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
-gitHub="https://github.com/chusyntax"
-liveSite="https://github.com/chusyntax"
+<Card heading="Gymnasia"
+description="This is a gym website with membership options, sign up/in pages and a trainers page and the different gym locations page. It also includes a mock card payment methods page"
+gitHub="https://gymnasia1.netlify.app/"
+liveSite="https://github.com/chewyscode/gym-website"
 onClick={onOpenModal6}
 cardImage={Images.card6}
 >
@@ -265,10 +265,10 @@ cardImage={Images.card6}
 </div>
 
 <div>
-<Card heading="Wassup"
-description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus perferendis ad aperiam esse, repudiandae sit nam blanditiis a alias nostrum porro itaque omnis amet suscipit facere?"
-gitHub="https://github.com/chusyntax"
-liveSite="https://github.com/chusyntax"
+<Card heading="Pot Party"
+description="This is an eCommerce site that sells pots for small to medium sized businesses. Websites also consists of smooth on-scroll animations from the AOS library."
+gitHub="https://pot-a-party.netlify.app/"
+liveSite="https://github.com/chusyntax/pot-a-party"
 onClick={onOpenModal7}
 cardImage={Images.card7}
 >
