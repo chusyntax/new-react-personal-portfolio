@@ -145,7 +145,7 @@ cardImage={Images.card2}
 <div>
 <Card heading="Molding Messengers"
 description="A publishing firm's  website  made in WordPress. Here, a client hired me to create new pages for the site and make changes to existing pages."
-gitHub="https://github.com/chusyntax"
+gitHub="https://www.moldingmessengers.com"
 liveSite="https://www.moldingmessengers.com"
 onClick={onOpenModal4}
 cardImage={Images.card4}
@@ -190,12 +190,12 @@ cardImage={Images.card3}
  <img style={{height:"100%", width:"100%", objectFit:"contain"}} src={Images.card3Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Heading</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique? Tenetur laborum incidunt aspernatur accusantium itaque commodi rem est ea. Odio commodi omnis non veniam saepe consectetur quibusdam. Dolorum, iusto.</p>
-    <p>Made with</p>
+     <h1 style={{fontSize:"2rem"}}>Kool Kicks</h1>
+    <p>This is an eCommerce store for shoes. It is intended to work as a fully functioning shoe sales platform. It was build with BootStrap and has multiple pages filled with high quality pictures as well On the "Best Sellers" page there is also a 3D image carousel.</p>
+    <p>Made with: HTML, CSS, BootStrap and JavaScript.</p>
      <div className={styles.buttonLayout}>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">View Code</a></button>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">Live Site</a></button>
+     <button className={styles.innerModalButton}><a href="https://github.com/chewyscode/eCommerce" target="_blank" rel="noreferrer">View Code</a></button>
+     <button className={styles.innerModalButton}><a href="https://kool-kicks.netlify.app/" target="_blank" rel="noreferrer">Live Site</a></button>
      </div>
  </div>
 
@@ -205,7 +205,7 @@ cardImage={Images.card3}
 
 <div>
 
-<Card heading="Github Search"
+<Card heading="Github Seeker"
 description="This website uses the GitHub API to get data about any GitHub user that is searched and display that data in a neat format. You also then view their personal website/blog."
 gitHub="https://github.com/chusyntax/JQuery-AJAX-Project"
 liveSite="https://chus-finder-app.netlify.app/"
@@ -219,12 +219,12 @@ cardImage={Images.card5}
  <img style={{height:"100%", width:"100%", objectFit:"contain"}} src={Images.card5Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Heading</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique? Tenetur laborum incidunt aspernatur accusantium itaque commodi rem est ea. Odio commodi omnis non veniam saepe consectetur quibusdam. Dolorum, iusto.</p>
-    <p>Made with</p>
+     <h1 style={{fontSize:"2rem"}}>GitHub Seeker</h1>
+    <p>Here you can search any user on Github and view their information. You can view their followers, their 5 latest repos and what language was mostly used in the repo, when the account was created and also a link to the user's personal website/blog.</p>
+    <p>Made with: HTML, Materialize, AJAX and jQuery.</p>
      <div className={styles.buttonLayout}>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">View Code</a></button>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">Live Site</a></button>
+     <button className={styles.innerModalButton}><a href="https://github.com/chusyntax/JQuery-AJAX-Project" target="_blank" rel="noreferrer">View Code</a></button>
+     <button className={styles.innerModalButton}><a href="https://chus-finder-app.netlify.app/" target="_blank" rel="noreferrer">Live Site</a></button>
      </div>
  </div>
 
@@ -234,7 +234,7 @@ cardImage={Images.card5}
 
 <div>
 <Card heading="Gymnasia"
-description="This is a gym website with membership options, sign up/in pages and a trainers page and the different gym locations page. It also includes a mock card payment methods page"
+description="This is a gym website with membership options, sign up/in pages and a trainers page and the different gym locations page. It also includes a mock card payment methods page."
 gitHub="https://gymnasia1.netlify.app/"
 liveSite="https://github.com/chewyscode/gym-website"
 onClick={onOpenModal6}
@@ -247,12 +247,12 @@ cardImage={Images.card6}
  <img style={{height:"100%", width:"100%",objectFit:"contain"}} src={Images.card6Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Heading</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique? Tenetur laborum incidunt aspernatur accusantium itaque commodi rem est ea. Odio commodi omnis non veniam saepe consectetur quibusdam. Dolorum, iusto.</p>
-    <p>Made with</p>
+     <h1 style={{fontSize:"2rem"}}>Gymnasia</h1>
+    <p>This is a gym website with membership options, sign up/in pages and a trainers page and the different gym locations page. It also includes a mock card payment methods page.</p>
+    <p>Made with: HTML and SCSS.</p>
      <div className={styles.buttonLayout}>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">View Code</a></button>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">Live Site</a></button>
+     <button className={styles.innerModalButton}><a href="https://github.com/chewyscode/gym-website" target="_blank" rel="noreferrer">View Code</a></button>
+     <button className={styles.innerModalButton}><a href="https://gymnasia1.netlify.app/" target="_blank" rel="noreferrer">Live Site</a></button>
      </div>
  </div>
 
@@ -275,12 +275,12 @@ cardImage={Images.card7}
  <img style={{height:"100%", width:"100%",objectFit:"contain"}} src={Images.card7Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Heading</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique? Tenetur laborum incidunt aspernatur accusantium itaque commodi rem est ea. Odio commodi omnis non veniam saepe consectetur quibusdam. Dolorum, iusto.</p>
-    <p>Made with</p>
+     <h1 style={{fontSize:"2rem"}}>Pot Party</h1>
+    <p>This is an eCommerce site that sells pots for small to medium sized businesses. Websites also consists of smooth on-scroll animations from the AOS library.</p>
+    <p>Made with: HTML, CSS, Materialize and AOS library.</p>
      <div className={styles.buttonLayout}>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">View Code</a></button>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">Live Site</a></button>
+     <button className={styles.innerModalButton}><a href="https://github.com/chusyntax/pot-a-party" target="_blank" rel="noreferrer">View Code</a></button>
+     <button className={styles.innerModalButton}><a href="https://pot-a-party.netlify.app/" target="_blank" rel="noreferrer">Live Site</a></button>
      </div>
  </div>
 
