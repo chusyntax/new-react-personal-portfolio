@@ -62,15 +62,16 @@ cardImage={Images.card8}
 <Modal open={open8} onClose={onCloseModal8} center>
 <div className={styles.modalWrapper}>
  
- <img style={{height:"100%", width:"100%"}} src={Images.card8Mobile} alt="A Landscape" width="100%" height="100%"/>
+ <img style={{height:"100%", width:"100%", objectFit:"contain"}} src={Images.card8Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Heading</h1>
-    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique? Tenetur laborum incidunt aspernatur accusantium itaque commodi rem est ea. Odio commodi omnis non veniam saepe consectetur quibusdam. Dolorum, iusto.</p>
-    <p>Made with</p>
+     <h1 style={{fontSize:"2rem"}}>Personal Portfolio</h1>
+    <p >This is my personal portfolio made with React.js. I used the useState hook for the Navbar, Experience page and for the modals as well. Here you can view more of my projects and download my resume as well. </p>
+    {/* <p>The biggest challenge with this project was with the modals and opening one at one time. My solution was the then use the Responsive Modal Library which came with its own styles. It also allowed me to create state for every modal so that different modals would not open at the same time.</p> */}
+    <p>Made with: React.js</p>
      <div className={styles.buttonLayout}>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">View Code</a></button>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">Live Site</a></button>
+     <button className={styles.innerModalButton}><a href="https://github.com/chusyntax/new-react-personal-portfolio" target="_blank" rel="noreferrer">View Code</a></button>
+     <button className={styles.innerModalButton}><a href="https://chusyntax.netlify.app/" target="_blank" rel="noreferrer">Live Site</a></button>
      </div>
  </div>
 
@@ -96,14 +97,14 @@ cardImage={Images.card1}
   <Modal open={open1} onClose={onCloseModal1}  center className={styles.customOverlay}>
   <div className={styles.modalWrapper}>
   
- <img style={{height:"100%", width:"100%"}} src={Images.card1Mobile} alt="A Landscape" width="100%" height="100%"/>
+ <img style={{height:"100%", width:"100%", objectFit:"contain"}} src={Images.card1Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1 style={{fontSize:"2rem"}}  >What's Going On</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique? Tenetur laborum incidunt aspernatur accusantium itaque commodi rem est ea. Odio commodi omnis non veniam saepe consectetur quibusdam. Dolorum, iusto.</p>
-    <p>Made with: HTML, CSS, JavaSript, New York Times API and Webpack.</p>
+    <p>A website that displays  the latest stories and top 13 books from the New York Times. You can also read the description of a book and go straight to purchasing it on Amazon. I used Webpack to compile the pages together as each page has its own JavaScript file and fetch request.</p>
+    <p>Made with: HTML, CSS, JavaScript, New York Times API and Webpack.</p>
      <div className={styles.buttonLayout}>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">View Code</a></button>
+     <button className={styles.innerModalButton}><a href="https://github.com/chusyntax/svg-and-api-website" target="_blank" rel="noreferrer">View Code</a></button>
      <button className={styles.innerModalButton}><a href="https://whatsgoingon.netlify.app/" target="_blank" rel="noreferrer">Live Site</a></button>
      </div>
  </div>
@@ -125,15 +126,15 @@ cardImage={Images.card2}
 
   <div className={styles.modalWrapper}>
  
- <img style={{height:"100%", width:"100%"}} src={Images.card2Mobile} alt="A Landscape" width="100%" height="100%"/>
+ <img style={{height:"100%", width:"100%", objectFit:"contain"}} src={Images.card2Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Heading</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique? Tenetur laborum incidunt aspernatur accusantium itaque commodi rem est ea. Odio commodi omnis non veniam saepe consectetur quibusdam. Dolorum, iusto.</p>
-    <p>Made with</p>
+     <h1 style={{fontSize:"2rem"}}>Skweeky Klean</h1>
+    <p>This page is for a pool cleaning company. It uses a video background that matches and compliments the rest of the website's aesthitic and vibe. It also uses SCSS for its styling and has multiple pages that you can access through the Navbar to explore and view.</p>
+    <p>Made with: HTML, SCSS, AOS library and JavaScript.</p>
      <div className={styles.buttonLayout}>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">View Code</a></button>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">Live Site</a></button>
+     <button className={styles.innerModalButton}><a href="https://github.com/chewyscode/skweeky-klean" target="_blank" rel="noreferrer">View Code</a></button>
+     <button className={styles.innerModalButton}><a href="https://skeeky-klean.netlify.app/" target="_blank" rel="noreferrer">Live Site</a></button>
      </div>
  </div>
 
@@ -153,15 +154,15 @@ cardImage={Images.card4}
   <Modal open={open4} onClose={onCloseModal4} center>
   <div className={styles.modalWrapper}>
  
- <img style={{height:"100%", width:"100%"}} src={Images.card4Mobile} alt="A Landscape" width="100%" height="100%"/>
+ <img style={{height:"100%", width:"100%", objectFit:"contain"}} src={Images.card4Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Heading</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique? Tenetur laborum incidunt aspernatur accusantium itaque commodi rem est ea. Odio commodi omnis non veniam saepe consectetur quibusdam. Dolorum, iusto.</p>
-    <p>Made with</p>
+     <h1 style={{fontSize:"2rem"}}>Molding Messengers</h1>
+    <p>A publishing firm's  website  made in WordPress. My job was to create the "BOOKS" page and and all existing books to it, update the NavBar to have the Books tab on it, create new pages for three new books and add their links and information, update the sliding gallary on the homepage with the three new books, update links on the Navbar and change content on the homepage.</p>
+    <p>Made with: WordPress</p>
      <div className={styles.buttonLayout}>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">View Code</a></button>
-     <button className={styles.innerModalButton}><a href="#!" target="_blank" rel="noreferrer">Live Site</a></button>
+     <button className={styles.innerModalButton}><a href="https://www.moldingmessengers.com" target="_blank" rel="noreferrer">View Code</a></button>
+     <button className={styles.innerModalButton}><a href="https://www.moldingmessengers.com" target="_blank" rel="noreferrer">Live Site</a></button>
      </div>
  </div>
 
@@ -186,7 +187,7 @@ cardImage={Images.card3}
   <Modal open={open3} onClose={onCloseModal3} center>
   <div className={styles.modalWrapper}>
  
- <img style={{height:"100%", width:"100%"}} src={Images.card3Mobile} alt="A Landscape" width="100%" height="100%"/>
+ <img style={{height:"100%", width:"100%", objectFit:"contain"}} src={Images.card3Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1 style={{fontSize:"2rem"}}>Heading</h1>
@@ -215,7 +216,7 @@ cardImage={Images.card5}
 <Modal open={open5} onClose={onCloseModal5} center>
 <div className={styles.modalWrapper}>
  
- <img style={{height:"100%", width:"100%"}} src={Images.card5Mobile} alt="A Landscape" width="100%" height="100%"/>
+ <img style={{height:"100%", width:"100%", objectFit:"contain"}} src={Images.card5Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1 style={{fontSize:"2rem"}}>Heading</h1>
@@ -243,7 +244,7 @@ cardImage={Images.card6}
 <Modal open={open6} onClose={onCloseModal6} center>
 <div className={styles.modalWrapper}>
  
- <img style={{height:"100%", width:"100%"}} src={Images.card6Mobile} alt="A Landscape" width="100%" height="100%"/>
+ <img style={{height:"100%", width:"100%",objectFit:"contain"}} src={Images.card6Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1 style={{fontSize:"2rem"}}>Heading</h1>
@@ -271,7 +272,7 @@ cardImage={Images.card7}
 <Modal open={open7} onClose={onCloseModal7} center>
 <div className={styles.modalWrapper}>
  
- <img style={{height:"100%", width:"100%"}} src={Images.card7Mobile} alt="A Landscape" width="100%" height="100%"/>
+ <img style={{height:"100%", width:"100%",objectFit:"contain"}} src={Images.card7Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
      <h1 style={{fontSize:"2rem"}}>Heading</h1>

@@ -175,10 +175,15 @@ object-fit: cover;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  line-height: 1.8;
-  color: #141414;
+  line-height: 1.2rem;
+  color: #3d3d3d;
 }
  
+.modalContent p{
+  margin-top: 2rem;
+  line-height: 1.5rem;
+}
+
   p {
     font-size:1rem;
     padding:1rem;
