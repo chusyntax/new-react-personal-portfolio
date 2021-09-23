@@ -1,7 +1,7 @@
 .projectsSection{
   position:relative;
   height:auto;
-  margin-top: 25vh;
+  margin-top: 10rem;
   font-family: Nunito Sans,sans-serif!important;
 }
 
@@ -79,7 +79,7 @@
     background:white;
     color:purple;
     border-radius: 5px;
-    transition:background 200ms ease-in, color 200ms ease-in;
+    transition: background 200ms ease-in, color 200ms ease-in;
   }
   .cardButton:hover{
     background:purple;

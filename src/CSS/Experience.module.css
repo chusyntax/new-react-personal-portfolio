@@ -28,7 +28,7 @@ h2 {
   background: -webkit-linear-gradient(315deg,purple 32%,#00f);
   background: -moz-linear-gradient(315deg,purple 32%,#00f 100%);
   background: linear-gradient(135deg,purple 32%,#00f);
-  -webkit-text-fill-color: transparent;
+   -webkit-text-fill-color: transparent;
    -webkit-background-clip: text;  
 }
 h3 {
@@ -185,7 +185,7 @@ Jobs
 @media screen and (max-width:800px){
 
 .section{
-  margin-top: 550vh;
+  margin-top: 15rem;
 }
 
 }

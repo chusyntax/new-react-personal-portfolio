@@ -20,6 +20,8 @@ footer{
   font-family: Nunito Sans,sans-serif;
   padding-top: 40px;
   color: white;
+  display:block;
+
 }
 .footer_content{
   display: flex;
@@ -80,3 +82,10 @@ footer{
   opacity: .4;
   font-weight: 200;
 }
+
+ @media screen and (max-width:798px){
+  footer{
+    display:none;
+    
+  }
+} 

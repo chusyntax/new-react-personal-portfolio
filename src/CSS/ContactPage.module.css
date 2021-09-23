@@ -32,9 +32,9 @@ h1{
   font-size:3rem;
   text-align: center;
   display:flex;
-  padding-left:500px;
   align-items: center;
-  max-width:800px;
+  width:100%;
+  margin-top:2rem;
   background: -webkit-linear-gradient(315deg,purple 32%,#00f);
   background: -moz-linear-gradient(315deg,purple 32%,#00f 100%);
   background: linear-gradient(135deg,purple 32%,#00f);
@@ -280,6 +280,10 @@ textarea.input {
     grid-template-columns: 1fr;
   }
 
+  section{
+    margin-top:10rem;
+  }
+
   .contactInfo:before {
     bottom: initial;
     top: -75px;
@@ -360,7 +364,5 @@ textarea.input {
   .btn {
     padding: 0.45rem 1.2rem;
   }
-  section{
-    margin-top:55vh;
-  }
+
 }

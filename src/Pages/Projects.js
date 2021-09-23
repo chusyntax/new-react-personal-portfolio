@@ -202,11 +202,6 @@ cardImage={Images.card3}
   </Modal>
 </div>
 
-
-
-
-
-
 <div>
 
 <Card heading="Github Search"

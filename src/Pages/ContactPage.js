@@ -15,7 +15,7 @@ function ContactPage() {
 fontWeight: '900',
 fontSize:'4rem',
 textAlign: 'center',
-margin:'2rem'
+marginTop:'0.5rem'
 
           }}>Contact Me</h1>
         <div className={styles.container}>
