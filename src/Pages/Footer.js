@@ -8,9 +8,9 @@ return(
         <h3>Chusyntax</h3>
         <p>Thank you for visiting my portfolio. Please don't hesitate to message me on any soical platform for oppotunities, collaborations or to just say hi :)</p>
         <ul className={styles.socials}>
-            <li><a href="w"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="w"><i class="fa fa-linkedin-square"></i></a></li>
-            <li><a href="w"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://github.com/chusyntax"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://linkedin.com/in/thabotheko"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://www.instagram.com/chusyntax/"><i class="fa fa-instagram"></i></a></li>
         </ul>
     </div>
     <div className={styles.footer_bottom}>

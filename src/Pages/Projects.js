@@ -65,7 +65,7 @@ cardImage={Images.card8}
  <img style={{height:"100%", width:"100%", objectFit:"contain"}} src={Images.card8Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Personal Portfolio</h1>
+     <h1 style={{fontSize:"2rem", margin:'1rem'}}>Personal Portfolio</h1>
     <p >This is my personal portfolio made with React.js. I used the useState hook for the Navbar, Experience page and for the modals as well. Here you can view more of my projects and download my resume as well. </p>
     {/* <p>The biggest challenge with this project was with the modals and opening one at one time. My solution was the then use the Responsive Modal Library which came with its own styles. It also allowed me to create state for every modal so that different modals would not open at the same time.</p> */}
     <p>Made with: React.js</p>
@@ -100,7 +100,7 @@ cardImage={Images.card1}
  <img style={{height:"100%", width:"100%", objectFit:"contain"}} src={Images.card1Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}  >What's Going On</h1>
+     <h1 style={{fontSize:"2rem", margin:'1rem'}}  >What's Going On</h1>
     <p>A website that displays  the latest stories and top 13 books from the New York Times. You can also read the description of a book and go straight to purchasing it on Amazon. I used Webpack to compile the pages together as each page has its own JavaScript file and fetch request.</p>
     <p>Made with: HTML, CSS, JavaScript, New York Times API and Webpack.</p>
      <div className={styles.buttonLayout}>
@@ -129,7 +129,7 @@ cardImage={Images.card2}
  <img style={{height:"100%", width:"100%", objectFit:"contain"}} src={Images.card2Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Skweeky Klean</h1>
+     <h1 style={{fontSize:"2rem", margin:'1rem'}}>Skweeky Klean</h1>
     <p>This page is for a pool cleaning company. It uses a video background that matches and compliments the rest of the website's aesthitic and vibe. It also uses SCSS for its styling and has multiple pages that you can access through the Navbar to explore and view.</p>
     <p>Made with: HTML, SCSS, AOS library and JavaScript.</p>
      <div className={styles.buttonLayout}>
@@ -157,7 +157,7 @@ cardImage={Images.card4}
  <img style={{height:"100%", width:"100%", objectFit:"contain"}} src={Images.card4Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Molding Messengers</h1>
+     <h1 style={{fontSize:"2rem", margin:'1rem'}}>Molding Messengers</h1>
     <p>A publishing firm's  website  made in WordPress. My job was to create the "BOOKS" page and and all existing books to it, update the NavBar to have the Books tab on it, create new pages for three new books and add their links and information, update the sliding gallary on the homepage with the three new books, update links on the Navbar and change content on the homepage.</p>
     <p>Made with: WordPress</p>
      <div className={styles.buttonLayout}>
@@ -190,7 +190,7 @@ cardImage={Images.card3}
  <img style={{height:"100%", width:"100%", objectFit:"contain"}} src={Images.card3Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Kool Kicks</h1>
+     <h1 style={{fontSize:"2rem", margin:'1rem'}}>Kool Kicks</h1>
     <p>This is an eCommerce store for shoes. It is intended to work as a fully functioning shoe sales platform. It was build with BootStrap and has multiple pages filled with high quality pictures as well On the "Best Sellers" page there is also a 3D image carousel.</p>
     <p>Made with: HTML, CSS, BootStrap and JavaScript.</p>
      <div className={styles.buttonLayout}>
@@ -219,7 +219,7 @@ cardImage={Images.card5}
  <img style={{height:"100%", width:"100%", objectFit:"contain"}} src={Images.card5Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>GitHub Seeker</h1>
+     <h1 style={{fontSize:"2rem", margin:'1rem'}}>GitHub Seeker</h1>
     <p>Here you can search any user on Github and view their information. You can view their followers, their 5 latest repos and what language was mostly used in the repo, when the account was created and also a link to the user's personal website/blog.</p>
     <p>Made with: HTML, Materialize, AJAX and jQuery.</p>
      <div className={styles.buttonLayout}>
@@ -247,7 +247,7 @@ cardImage={Images.card6}
  <img style={{height:"100%", width:"100%",objectFit:"contain"}} src={Images.card6Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Gymnasia</h1>
+     <h1 style={{fontSize:"2rem", margin:'1rem'}}>Gymnasia</h1>
     <p>This is a gym website with membership options, sign up/in pages and a trainers page and the different gym locations page. It also includes a mock card payment methods page.</p>
     <p>Made with: HTML and SCSS.</p>
      <div className={styles.buttonLayout}>
@@ -275,7 +275,7 @@ cardImage={Images.card7}
  <img style={{height:"100%", width:"100%",objectFit:"contain"}} src={Images.card7Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
  <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem"}}>Pot Party</h1>
+     <h1 style={{fontSize:"2rem", margin:'1rem'}}>Pot Party</h1>
     <p>This is an eCommerce site that sells pots for small to medium sized businesses. Websites also consists of smooth on-scroll animations from the AOS library.</p>
     <p>Made with: HTML, CSS, Materialize and AOS library.</p>
      <div className={styles.buttonLayout}>

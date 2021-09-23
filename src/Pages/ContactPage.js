@@ -26,8 +26,7 @@ marginTop:'0.5rem'
             <div className={styles.contactInfo}>
               <h3 className={styles.title}>Let's get in touch</h3>
               <p className={styles.text}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                dolorum adipisci recusandae praesentium dicta!
+                I would love to hear from you. You can contact me anytime for any oppotunites or collaborations and I will respond to you ASAP.
               </p>
     
               <div className={styles.info}>
@@ -47,14 +46,14 @@ marginTop:'0.5rem'
               <div className={styles.socialMedia}>
                 <p className={styles.information}>Follow Me On Social Media :</p>
                 <div className={styles.socialIcons}>
-                  <a href="w">
+                  <a href="https://github.com/chusyntax">
                     <i className="fab fa-github"></i>
                   </a>
-                  <a href="w">
-                    <i className="fab fa-instagram"></i>
+                  <a href="https://linkedin.com/in/thabotheko">
+                    <i className="fab fa-linkedin"></i>
                   </a>
-                  <a href="w">
-                    <i className="fab fa-linkedin-in"></i>
+                  <a href="https://www.instagram.com/chusyntax/">
+                    <i className="fab fa-instagram"></i>
                   </a>
                 </div>
               </div>
@@ -75,7 +74,7 @@ marginTop:'0.5rem'
 
                 </div>
                 <div className={styles.inputContainer}>
-                  <input type="tel" name="phone" className={styles.input} placeholder="Phone"/>
+                  <input type="tel" name="phone" className={styles.input} placeholder="Phone (optional)"/>
 
                 </div>
                 <div className={`${styles.inputContainer} ${styles.textarea}`}>
