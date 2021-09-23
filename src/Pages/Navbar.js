@@ -2,6 +2,7 @@ import React, { useState} from 'react';
 import { FaBars } from 'react-icons/fa';
 import { social } from '../Data/NavbarData.js';
 import styles from "../CSS/Navbar.module.css";
+import Resume from '../assets/Resume - Thabo Theko.pdf';
 
 
 const Navbar = () => {
@@ -30,7 +31,7 @@ return <nav>
           <a href="w">Contact</a>
         </li>
         <li>
-          <a href="w">Download Resume</a>
+          <a href={Resume} download>Download Resume</a>
         </li>
       </ul>
     </div>

@@ -1,4 +1,5 @@
 import styles from '../CSS/Home.module.css';
+import Resume from '../assets/Resume - Thabo Theko.pdf'
 
 
 function Home() {
@@ -13,7 +14,7 @@ function Home() {
 </div>
 
 <div className={styles.buttons}>
-    <a  href="w" download><button>Download Resume</button></a>
+    <a  href={Resume} download><button>Download Resume</button></a>
     <button>View Projects</button>
 </div>
 
