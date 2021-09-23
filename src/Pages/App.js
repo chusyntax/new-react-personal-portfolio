@@ -5,15 +5,16 @@ import About from './About';
 import Experience from './Experience';
 import ContactPage from './ContactPage';
 import Footer from "./Footer";
+import '../CSS/index.css'
 
 function App() {
   return (
-<main>
+<main id="home" >
 
 <Navbar/>
-<Home/>
-<About/>
-<Projects/>
+<Home />
+<About />
+<Projects />
 <Experience/>
 <ContactPage/>
 <Footer/>

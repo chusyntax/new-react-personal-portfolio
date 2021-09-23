@@ -5,7 +5,7 @@ import Resume from '../assets/Resume - Thabo Theko.pdf'
 function Home() {
     return (
       <section>
-<div className={styles.home}>
+<div id="home" className={styles.home}>
 
 <div className={styles.intro}>
     <h1 style={{fontSize:"5rem"}}>Hello World,</h1>

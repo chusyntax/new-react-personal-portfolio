@@ -7,6 +7,16 @@ import Resume from '../assets/Resume - Thabo Theko.pdf';
 
 const Navbar = () => {
 const [showLinks, setShowLinks] = useState(false);
+const handleClick=(e)=>{
+e.preventDefault();
+const target = e.target.getAttribute('href');
+const location = document.querySelector(target).offsetTop;
+console.log(location);
+window.scrollTo({
+  left:0,
+  top:location -150
+})
+}
 
 return <nav>
   <div className={styles.nav_center}>
@@ -19,16 +29,16 @@ return <nav>
     <div className={`${showLinks ? `${styles.links_container && styles.show_container}`  : `${styles.links_container}` }`}>
       <ul className={styles.links}>
         <li>
-          <a href="w">Home</a>
+          <a href="#home" onClick={handleClick}>Home</a>
         </li>
         <li>
-          <a href="w">Projects</a>
+          <a href="#projects"  onClick={handleClick}>Projects</a>
         </li>
         <li>
-          <a href="w">Experience</a>
+          <a href="#experience"  onClick={handleClick}>Experience</a>
         </li>
         <li>
-          <a href="w">Contact</a>
+          <a href="#contact"  onClick={handleClick}>Contact</a>
         </li>
         <li>
           <a href={Resume} download>Download Resume</a>

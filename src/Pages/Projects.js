@@ -43,7 +43,7 @@ const [open8, setOpen8] = useState(false);
   const onCloseModal8 = () => setOpen8(false);
 
   return (
-<section className={styles.projectsSection}>
+<section id="projects"  className={styles.projectsSection}>
 
 <h1 className={styles.title}>My Projects</h1>
 

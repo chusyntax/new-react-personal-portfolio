@@ -131,7 +131,8 @@ h3{
     .wave{
         display:none;
     }
-    /* section{
-        margin-bottom:-15rem;
-    } */
+   .intro{
+       color:purple;
+      
+   }
 }

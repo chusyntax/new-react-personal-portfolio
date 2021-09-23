@@ -18,7 +18,7 @@ function App() {
 
 
 
-    <section className={styles.section}>
+    <section id="experience" className={styles.section}>
       <div className={styles.title}>
         <h2>Experience</h2>
       </div>

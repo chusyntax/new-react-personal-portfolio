@@ -18,7 +18,7 @@ textAlign: 'center',
 marginTop:'0.5rem'
 
           }}>Contact Me</h1>
-        <div className={styles.container}>
+        <div id="contact" className={styles.container}>
           
           <span className={styles.bigCircle}></span>
           <img src="img/shape.png" className={styles.square} alt="" />
