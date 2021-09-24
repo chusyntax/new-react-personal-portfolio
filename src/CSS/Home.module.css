@@ -74,6 +74,7 @@ button{
   }
 
 .intro{
+    display:block;
     font-family: Nunito Sans,sans-serif!important;
     font-weight: 900;
     text-align: center;
@@ -131,8 +132,5 @@ h3{
     .wave{
         display:none;
     }
-   .intro{
-       color:purple;
-      
-   }
+
 }
