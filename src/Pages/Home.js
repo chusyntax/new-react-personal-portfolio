@@ -8,9 +8,9 @@ function Home() {
 <div id="home" className={styles.home}>
 
 <div className={styles.intro}>
-    <h1 style={{fontSize:"5rem"}}>Hello World,</h1>
-    <h2 style={{fontSize:"2.5rem"}}>I'm Chu-young (Chu) Theko.</h2>
-    <h3 style={{fontSize:"1.7rem"}}>A Front End Web Developer</h3>
+    <h1 style={{fontSize:"5.5rem", fontWeight:"600"}}>Hello World,</h1>
+    <h2 style={{fontSize:"2.5rem", fontWeight:"600"}}>I'm Chu-young (Chu) Theko.</h2>
+    <h3 style={{fontSize:"1.7rem", fontWeight:"600"}}>A Front End Web Developer</h3>
 </div>
 
 <div className={styles.buttons}>

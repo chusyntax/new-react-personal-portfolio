@@ -1,14 +1,14 @@
 .projectsSection{
   position:relative;
   height:auto;
-  margin-top: 10rem;
+  margin-top: 12rem;
   font-family: Nunito Sans,sans-serif!important;
 }
 
 .title{
   display:block;
   font-family: Nunito Sans,sans-serif!important;
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 900;
   text-align: center;
   max-width: 700px;
@@ -23,13 +23,8 @@
 
 .cardTitle{
   display:block;
-  background: -webkit-linear-gradient(315deg,purple 32%,#00f);
-  background: -moz-linear-gradient(315deg,purple 32%,#00f 100%);
-  background: linear-gradient(135deg,purple 32%,#00f);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  font-family: Nunito Sans,sans-serif!important;
-  font-size: 1.5rem;
+  color:purple;
+  font-size:1.5rem;
 
 }
 
@@ -180,10 +175,13 @@ object-fit: cover;
   line-height: 1.2rem;
   color: #3d3d3d;
 }
+
+
  
 .modalContent p{
   margin-top: 2rem;
   line-height: 1.5rem;
+  background:transparent;
 }
 
   p {
@@ -228,6 +226,10 @@ a{
     display: grid;
     grid-template-columns: 1fr;
 }
+.modalWrapper img{
+  display:none;
+}
+
 .buttonLayout{
   flex-direction:column;
 }
@@ -238,6 +240,11 @@ a{
 .projectsSection{
 
   margin-top: 125vh;
+}
+
+.modalContent h1{
+  display:block;
+  margin:0.3rem;
 }
 
 }

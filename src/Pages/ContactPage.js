@@ -30,9 +30,6 @@ marginTop:'0.5rem'
               </p>
     
               <div className={styles.info}>
-                <div className={styles.information}>
-                  <p>Birchleigh North, Kempton Park,South Africa</p>
-                </div>
 
                 <div className={styles.information}>
                   <p>Email:ttheko101@gmail.com</p>
@@ -44,7 +41,7 @@ marginTop:'0.5rem'
               </div>
     
               <div className={styles.socialMedia}>
-                <p className={styles.information}>Follow Me On Social Media :</p>
+                <p className={styles.information}>Follow Me On Social Media:</p>
                 <div className={styles.socialIcons}>
                   <a href="https://github.com/chusyntax">
                     <i className="fab fa-github"></i>
