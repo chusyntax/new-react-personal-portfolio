@@ -15,7 +15,7 @@ function Home() {
 
 <div className={styles.buttons}>
     <a  href={Resume} download><button>Download Resume</button></a>
-    <button>View Projects</button>
+    <a href="#projects"><button>View Projects</button></a>
 </div>
 
 
