@@ -9,7 +9,7 @@ const Icons = {
     jquery : require('./jquery.png').default,
     
     js : require('./js.png').default,
-    materialize : require('./materialize.png').default,
+    materialUI : require('./material-ui.png').default,
 
     react : require('./react.png').default,
     typescript : require('./typescript.png').default,
@@ -18,7 +18,7 @@ const Icons = {
     sass : require('./sass.png').default,
     
     git : require('./git.png').default,
-    github : require('./github.png').default,
+    materialize : require('./materialize.png').default,
 
     wordpress : require('./wordpress.png').default,
     webpack : require('./webpack.png').default,

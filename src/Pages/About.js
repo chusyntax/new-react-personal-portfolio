@@ -112,8 +112,8 @@ quick learner, and highly collaborative.</p>
                 <span>Git/Version Control</span>
             </div>
             <div className={AboutStyles.icon}>
-                <img src={icons.github} alt="Github" />
-                <span>GitHub</span>
+                <img src={icons.materialUI} alt="Material-UI" />
+                <span>Material-UI</span>
             </div>
         </div>
        </div>

@@ -1,7 +1,7 @@
 .projectsSection{
   position:relative;
   height:auto;
-  margin-top: 12rem;
+  margin-top: 17rem;
   font-family: Nunito Sans,sans-serif!important;
 }
 
@@ -182,6 +182,7 @@ object-fit: cover;
   margin-top: 2rem;
   line-height: 1.5rem;
   background:transparent;
+
 }
 
   p {
