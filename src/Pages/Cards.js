@@ -26,7 +26,7 @@ function Card(props) {
       </div>
     </div>
 
-      <h2 className={styles.cardTitle}>{props.heading}</h2>
+      <h2 style={{display:"block"}}  className={styles.cardTitle}>{props.heading}</h2>
       <p className={styles.cardDescription}>{props.description}</p>
   </div>
  

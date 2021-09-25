@@ -231,6 +231,10 @@ a{
   display:none;
 }
 
+.modalContent h1{
+  display:none;
+}
+
 .buttonLayout{
   flex-direction:column;
 }
@@ -246,6 +250,9 @@ a{
 .modalContent h1{
   display:block;
   margin:0.3rem;
+}
+.title{
+  margin-top:5vh;
 }
 
 }

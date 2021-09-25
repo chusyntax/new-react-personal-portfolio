@@ -55,7 +55,7 @@ function App() {
                 <p>{duty}</p>
               </div>
             )
-          })};
+          })}
         </article>
       </div>
     </section>
