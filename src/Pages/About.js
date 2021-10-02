@@ -66,7 +66,7 @@ quick learner, and highly collaborative.</p>
                     {/*Second Row*/}
             <div className={AboutStyles.icon}>
                 <img src={icons.js} alt="HTML 5" />
-                <span>JavaScript/ES6</span>
+                <span>JavaScript</span>
             </div>
             <div className={AboutStyles.icon}>
                 <img src={icons.jquery} alt="CSS 3" />

@@ -15,11 +15,11 @@ function Card(props) {
     <img className={styles.imageOverlayImg} src={props.cardImage} alt="Project screenshot" />
       <div className={styles.imageOverlayDescription}>
 
-        <a href={props.gitHub} target="_blank" rel="noopener noreferrer">
+        <a href={props.liveSite} target="_blank" rel="noopener noreferrer">
         <img src={GitHub} alt="GitHub Icon" /> 
         </a>
-
-        <a href={props.liveSite} target="_blank" rel="noopener noreferrer">
+   {/* REMEMBER THAT GITHUB AND LIVESITE LINKS ARE SWAPPED AROUND */}
+        <a href={props.gitHub} target="_blank" rel="noopener noreferrer">
         <img src={Website} alt="liveSite Icon" /> 
         </a> 
        

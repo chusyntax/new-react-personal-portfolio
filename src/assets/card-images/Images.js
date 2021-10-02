@@ -17,8 +17,8 @@ card5Mobile : require('./card 5 mobile.png').default,
 card6 : require('./card 6.png').default,
 card6Mobile : require('./card 6 mobile.png').default,
 
-card7 : require('./card 7.png').default,
-card7Mobile : require('./card 7 mobile.png').default,
+card7 : require('./attractions.png').default,
+card7Mobile : require('./atractions mobile.png').default,
 
 card8 : require('./home page.png').default,
 card8Mobile : require('./home page mobile.png').default,

@@ -51,8 +51,40 @@ const [open8, setOpen8] = useState(false);
 
 
 <div>
+<Card heading="Travel App"
+description="A website made with React where you can find restaurants, hotels and attractions in your area or all across the world. You can also select the ratings of these options."
+gitHub="https://github.com/chusyntax/react-travel-app"
+liveSite="https://attractionsapp.netlify.app/"
+onClick={onOpenModal7}
+cardImage={Images.card7}
+>
+</Card>
+<Modal open={open7} onClose={onCloseModal7} center>
+<div className={styles.modalWrapper}>
+ 
+ <img style={{height:"100%", width:"100%",objectFit:"contain"}} src={Images.card7Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
+
+ <div className={styles.modalContent}>
+     <h1 style={{fontSize:"2rem", margin:'1rem'}}>Travel and Attractions</h1>
+    <p>Here you can find the attractions, hotels and restaurants in your current area or all over the world my using the search bar powered by Google. The site also uses the useState, useEffect and useRef hooks. The weather in the area is represented by emojis.</p>
+    <p>Made with: React, Material-UI, Travel Advisor API, Google Maps API and Open Weather API</p>
+     <div className={styles.buttonLayout}>
+     <button className={styles.innerModalButton}><a href="https://github.com/chusyntax/react-travel-app" target="_blank" rel="noreferrer">View Code</a></button>
+     <button className={styles.innerModalButton}><a href="https://attractionsapp.netlify.app/" target="_blank" rel="noreferrer">Live Site</a></button>
+     </div>
+ </div>
+
+</div>
+</Modal>
+</div>
+
+
+
+
+
+<div>
 <Card heading="Personal Portfolio"
-description="My new personal portfolio made with React.js. Here you can get to know more about me and the skills I have aquired,view all my projects and message me as well."
+description="My new personal portfolio made with React. Here you can get to know more about me and the skills I have aquired,view all my projects and message me as well."
 gitHub="https://github.com/chusyntax/new-react-personal-portfolio"
 liveSite="https://chusyntax.netlify.app/"
 onClick={onOpenModal8}
@@ -142,6 +174,12 @@ cardImage={Images.card2}
   </Modal>
 </div>
 
+
+</div>
+
+<div className={styles.cardWrapper}>
+
+
 <div>
 <Card heading="Molding Messengers"
 description="A publishing firm's  website  made in WordPress. Here, a client hired me to create new pages for the site and make changes to existing pages."
@@ -171,9 +209,9 @@ cardImage={Images.card4}
 </div>
 
 
-</div>
 
-<div className={styles.cardWrapper}>
+
+
 
 <div>
  <Card heading="Kool Kicks"
@@ -235,8 +273,8 @@ cardImage={Images.card5}
 <div>
 <Card heading="Gymnasia"
 description="This is a gym website with membership options, sign up/in pages and a trainers page and the different gym locations page. It also includes a mock card payment methods page."
-gitHub="https://gymnasia1.netlify.app/"
-liveSite="https://github.com/chewyscode/gym-website"
+gitHub="https://github.com/chewyscode/gym-website"
+liveSite="https://gymnasia1.netlify.app"
 onClick={onOpenModal6}
 cardImage={Images.card6}
 >
@@ -260,33 +298,7 @@ cardImage={Images.card6}
 </Modal>
 </div>
 
-<div>
-<Card heading="Pot Party"
-description="This is an eCommerce site that sells pots for small to medium sized businesses. Websites also consists of smooth on-scroll animations from the AOS library."
-gitHub="https://pot-a-party.netlify.app/"
-liveSite="https://github.com/chusyntax/pot-a-party"
-onClick={onOpenModal7}
-cardImage={Images.card7}
->
-</Card>
-<Modal open={open7} onClose={onCloseModal7} center>
-<div className={styles.modalWrapper}>
- 
- <img style={{height:"100%", width:"100%",objectFit:"contain"}} src={Images.card7Mobile} alt="Mobile snapshot of the project." width="100%" height="100%"/>
 
- <div className={styles.modalContent}>
-     <h1 style={{fontSize:"2rem", margin:'1rem'}}>Pot Party</h1>
-    <p>This is an eCommerce site that sells pots for small to medium sized businesses. Websites also consists of smooth on-scroll animations from the AOS library.</p>
-    <p>Made with: HTML, CSS, Materialize and AOS library.</p>
-     <div className={styles.buttonLayout}>
-     <button className={styles.innerModalButton}><a href="https://github.com/chusyntax/pot-a-party" target="_blank" rel="noreferrer">View Code</a></button>
-     <button className={styles.innerModalButton}><a href="https://pot-a-party.netlify.app/" target="_blank" rel="noreferrer">Live Site</a></button>
-     </div>
- </div>
-
-</div>
-</Modal>
-</div>
 
 
 
