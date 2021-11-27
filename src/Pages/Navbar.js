@@ -2,7 +2,7 @@ import React, { useState} from 'react';
 import { FaBars } from 'react-icons/fa';
 import { social } from '../Data/NavbarData.js';
 import styles from "../CSS/Navbar.module.css";
-import Resume from '../assets/Resume - Thabo Theko.pdf';
+import Resume from '../assets/Chu_young_Thabo_Theko_s_Resume.pdf';
 
 
 const Navbar = () => {
