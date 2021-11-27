@@ -66,7 +66,7 @@ cardImage={Images.card7}
 
  <div className={styles.modalContent}>
      <h1 style={{fontSize:"2rem", margin:'1rem'}}>Travel and Attractions</h1>
-    <p>Here you can find the attractions, hotels and restaurants in your current area or all over the world my using the search bar powered by Google. The site also uses the useState, useEffect and useRef hooks. The weather in the area is represented by emojis.</p>
+    <p>Here you can find the attractions, hotels and restaurants in your current area or all over the world by using the search bar powered by Google. The site also uses the useState, useEffect and useRef hooks. The weather in the area is represented by emojis.</p>
     <p>Made with: React, Material-UI, Travel Advisor API, Google Maps API and Open Weather API</p>
      <div className={styles.buttonLayout}>
      <button className={styles.innerModalButton}><a href="https://github.com/chusyntax/react-travel-app" target="_blank" rel="noreferrer">View Code</a></button>

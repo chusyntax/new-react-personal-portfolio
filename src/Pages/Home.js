@@ -1,5 +1,5 @@
 import styles from '../CSS/Home.module.css';
-import Resume from '../assets/Resume - Thabo Theko.pdf'
+import Resume from '../assets/Chu_young_Thabo_Theko_s_Resume.pdf'
 
 
 function Home() {
